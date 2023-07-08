@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.container h1 {
+  margin-top: 160px;
+  font-size: 128px;
+}
+.container img {
+  margin: 0 auto;
+  max-width: 636px;
+  display: block;
+}
+.container h2 {
+  font-size: 128px;
+  text-align: right;
+}
+.container li {
+  max-width: 636px;
+  margin-bottom: 40px;
+}
+.container h3 {
+  font-size: 40px;
+  color: #AE0000;
+  border-bottom: #AE0000 solid 3px;
+  margin-bottom: 16px;
+}
+.container p {
+  margin-bottom: 8px;
+}
+.container .year {
+  font-size: 20px;
+  color: #949494;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.bg-gray {
+  background-color: #EFEFEF;
+  padding: 48px 0;
+  margin-bottom: 80px;
+}
+.bg-gray .info {
+  max-width: 636px;
+  margin-left: auto;
+  font-size: 32px;
+}
+
+footer {
+  background-color: #000;
+  padding: 64px 0;
+  margin-top: 160px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+footer li {
+  margin: 0 20px;
+}
+footer img {
+  display: block;
+  font-size: 0;
+  transition: 0.2s ease-in-out;
+}
+footer li:hover img {
+  transform: scale(1.1);
+}/*# sourceMappingURL=all.css.map */
