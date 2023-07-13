@@ -29,24 +29,6 @@ body {
   max-width: 636px;
   margin: 0 auto;
 }
-.container h3 {
-  color: #AE0000;
-  font-size: 40px;
-  border-bottom: #AE0000 solid 3px;
-  margin-bottom: 16px;
-}
-.container p {
-  margin-bottom: 8px;
-}
-.container .year {
-  font-size: 20px;
-  color: #949494;
-  font-style: italic;
-  margin-bottom: 0;
-}
-.container .text {
-  margin-bottom: 16px;
-}
 .container ul {
   margin-bottom: 160px;
   max-width: 636px;
@@ -70,15 +52,45 @@ header {
   margin-left: auto;
 }
 
+.list ul {
+  margin-bottom: 0;
+}
+.list li {
+  margin-bottom: 8px;
+}
+.list a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+.list a:hover {
+  color: #666;
+}
+.list h3 {
+  color: #AE0000;
+  font-size: 40px;
+  border-bottom: #AE0000 solid 3px;
+  margin-bottom: 16px;
+}
+.list .year {
+  font-size: 20px;
+  color: #949494;
+  font-style: italic;
+  margin-bottom: 0;
+}
+.list .text {
+  margin-bottom: 16px;
+}
+
 footer {
   background-color: #000;
   padding: 64px 0;
 }
 footer ul {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 footer li {
+  display: inline-block;
   margin: 0 20px;
 }
 footer img {
